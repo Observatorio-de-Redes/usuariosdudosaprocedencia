@@ -1,7 +1,6 @@
 ---
 title: "Algunas metricas básicas"
 author: "Guadalupe (guadag12@outlook.com)"
-date: "23/5/2020"
 output:
   html_document: default
   pdf_document: default
