@@ -40,13 +40,13 @@ options(RCurlOptions = list( capath = system.file("CurlSSL", "cacert.pem", packa
 reqURL<-"https://api.twitter.com/oauth/request_token"
 accessURL<-"https://api.twitter.com/oauth/access_token"
 authURL<-"https://api.twitter.com/oauth/authorize"
-consumerKey<-"c1ESC0DmMmBW8Xlh6L5CIRxCf" #clave que se da cuando se genera la app individual en Twitter
-consumerSecret<-"Xfd4FaKoAmRXPe1ZdwyaFdFxTfL4dAjQadx15GOQB9L536zpqZ" #Idem
-access_token <- "1670401616-8OgN0VexDFRIusAMU6XQn5qheb0ACWKQ1vebsiq"
-access_secret <- "3gv1OZJacS0Wb7lK1pSR0NnCMZvjeA2wUoltxSYgND3XS"
+consumerKey<-"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" #clave que se da cuando se genera la app individual en Twitter
+consumerSecret<-"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" #Idem
+access_token <- "xxxxxxxxxx-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+access_secret <- "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 setup_twitter_oauth(consumerKey, consumerSecret, access_token, access_secret)
 1
-appname <- "Guadag"
+appname <- "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 token <- create_token(app =  appname, consumer_key = consumerKey , 
                       consumer_secret = consumerSecret,
                       access_token = access_token,
