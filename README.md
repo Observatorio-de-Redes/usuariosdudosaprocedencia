@@ -2,6 +2,9 @@
 
 Este reporte fue desarrollado por Juan Ignacio Belbis y Guadalupe González por parte del Observatorio de Redes, y en coordinación con Hernán Alberro del proyecto 100 por Cierto del Foro del Periodismo Argentino (FOPEA). Este proyecto no hubiera sido posible sin el apoyo de la Unión Europea y Thomson Media.  Queremos agradecer también a Fernando Ruíz, María José Grillo, Andrea Schulte y John Reichertz.
 
+### Podes mirar el reporte completo [acá](http://bit.ly/EstudioTyB)
+### Mirá el [video que armamos al respecto](https://youtu.be/rly1YTstn1Q)
+
 ## Construido con 🛠️
 
 * [Rstudio](https://rstudio.com/) 
