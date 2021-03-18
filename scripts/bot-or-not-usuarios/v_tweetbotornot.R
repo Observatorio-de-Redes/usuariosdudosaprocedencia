@@ -1,15 +1,3 @@
-source("https://github.com/Guadag12/prubea/raw/master/features-exp.R")
-source("https://github.com/mkearney/tweetbotornot/raw/master/R/features.R")
-source("https://github.com/mkearney/tweetbotornot/raw/master/R/since_last.R")
-load("C:/Users/Usuario/OneDrive/FOPEA_COVID/Coronavirus/FOPEA_PROJ/sysdata.rda")
-source("https://github.com/mkearney/tweetbotornot/raw/master/R/utils-pipe.R")
-source("https://github.com/mkearney/tweetbotornot/raw/master/R/utils.R")
-source("https://github.com/mkearney/tweetbotornot/raw/master/R/tweetbotornot.R")
-
-install.packages("textfeatures")
-install.packages("gbm")
-base_usuarios <- read_csv("C:/Users/Usuario/OneDrive/FOPEA_COVID/Coronavirus/tweets_fake_news/usuarios/top_100_tweeteadores.csv")
-base_usuarios <- read_csv("df_usuarios.csv")
 library(textfeatures)
 library(gbm)
 library(tidyverse)
@@ -30,6 +18,17 @@ library(splitstackshape)
 library(sqldf)
 library("rtweet")
 library("rtweet")
+
+source("https://github.com/Guadag12/prubea/raw/master/features-exp.R")
+source("https://github.com/mkearney/tweetbotornot/raw/master/R/features.R")
+source("https://github.com/mkearney/tweetbotornot/raw/master/R/since_last.R")
+load("C:/Users/Usuario/OneDrive/FOPEA_COVID/Coronavirus/FOPEA_PROJ/sysdata.rda")
+source("https://github.com/mkearney/tweetbotornot/raw/master/R/utils-pipe.R")
+source("https://github.com/mkearney/tweetbotornot/raw/master/R/utils.R")
+source("https://github.com/mkearney/tweetbotornot/raw/master/R/tweetbotornot.R")
+
+base_usuarios <- read_csv("C:/Users/Usuario/OneDrive/FOPEA_COVID/Coronavirus/tweets_fake_news/usuarios/top_100_tweeteadores.csv")
+#base_usuarios <- read_csv("df_usuarios.csv")
 
 # 2. Nos conectamos a R - (si no funcionan tus credenciales, usa las mias)
 
